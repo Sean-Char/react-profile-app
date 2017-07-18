@@ -8,10 +8,6 @@ import ChildTwo from './components/ChildTwo/ChildTwo'
 import './App.css'
 
 class App extends Component {
-   // Create a constructor for me
-   // Call super
-   // Create a property called this.state
-   // Set this.state = to an object
    constructor() {
       super()
       this.state = {

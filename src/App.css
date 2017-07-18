@@ -1,0 +1,41 @@
+.profile-container {
+   margin: 1em auto;
+   padding: 1em 2em; 
+   width: 60%;
+   display: flex;
+   align-items: center;
+}
+.profile-image {
+   flex: 1;
+}
+.profile-info {
+   flex: 2;
+   margin-left: 2em
+}
+.profile-info-status::before {
+   content: "\""   
+}
+.profile-info-status::after {
+   content: "\""   
+}
+.profile-info-birthdate {
+   font-style: italic;
+}
+
+.profile-editor {
+   margin: 1em auto;
+   padding: 1em 2em;
+   width: 90%;
+   text-align: center;
+}
+.profile-editor-input {
+   margin: 1em;
+   width: 60%;
+   height: 2em;
+   font-size: 1em;
+}
+.profile-editor-submit {
+   display: block;
+   width: 30%;
+   margin: 0 auto;
+}
